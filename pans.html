@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .items{
+            display:inline;
+            padding-left:30px;
+        }
+        nav{
+            background-color: blueviolet;
+            padding: 10px;
+        }
+        a{
+            color:aqua;
+            text-decoration: none;
+        }
+        .content{
+            display:none;
+           
+            position:absolute;
+            z-index: 1;
+            background-color:pink ;
+        }
+        .items:hover .content {
+            display:block;
+            }.items{
+            display:inline;
+            padding-left:30px;
+        }
+        nav{
+            background-color: blueviolet;
+            padding: 10px;
+        }
+        a{
+            color:aqua;
+            text-decoration: none;
+        }
+        .pandu{ 
+            display:none;
+           
+            position:absolute;
+            z-index: 1;
+            background-color:yellow ;
+        }
+        .items:hover .pandu{
+            display:block;
+            }
+           
+
+           
+            
+            
+    </style>
+</head>
+<body>
+    <nav>
+        
+        
+        <ul>
+            <li class="items"><a class="a1" href="">Home</a>
+                <ul class="content">
+        
+                    <li><a class="a1" href="">ECE</a></li>
+                    <li><a class="a1" href="">CSE</a></li>
+                    <li><a class="a1" href="">CIVIL</a></li>
+                    <li><a class="a1" href="">MECHANICAL</a></li>
+                    <li><a class="a1" href="">EEE</a></li>
+                    </ul>
+        
+                    </li>
+            <li class="items"><a class="a1" href="">Contacts</a></li>
+            <li class="items"><a class="a1" href="">Courses</a>
+            <ul class="pandu">
+                <li><a class="a1" href="">rrr</a></li>
+                <li><a class="a1" href="">rrr</a></li>
+                <li><a class="a1" href="">rrr</a></li>
+                <li><a class="a1" href="">rrr</a></li>
+                <li><a class="a1" href="">rrr</a></li>
+                </ul>
+                </li>
+
+
+
+
+        
+           <li class="items"><a class="a1" href="">Services</a></li>
+            <li class="items"><a class="a1" href="">Colleges</a></li>
+            <li class="items"><a class="a1" href="">About Us</a></li>
+            
+        </ul>
+    </nav>
+</body>
+</html>
